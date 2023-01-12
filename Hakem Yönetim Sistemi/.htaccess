@@ -1,0 +1,96 @@
+RewriteEngine on
+
+RewriteRule ^giris$ login.php [NC,L]
+RewriteRule ^giris/$ login.php [NC,L]
+
+RewriteRule ^hakemler$ index.php?page=hakemler [NC,L]
+RewriteRule ^hakemler/$ index.php?page=hakemler [NC,L]
+
+RewriteRule ^hakem-ekle$ index.php?page=hakem-ekle [L,QSA]
+RewriteRule ^hakem-ekle/$ index.php?page=hakem-ekle [L,QSA]
+
+RewriteRule ^hakem-guncelle-([0-9]+)$ index.php?page=hakem-guncelle&id=$1 [L,QSA]
+RewriteRule ^hakem-guncelle-([0-9]+)/$ index.php?page=hakem-guncelle&id=$1 [L,QSA]
+
+RewriteRule ^gozlemciler$ index.php?page=gozlemciler [NC,L]
+RewriteRule ^gozlemciler/$ index.php?page=gozlemciler [NC,L]
+
+RewriteRule ^gozlemci-ekle$ index.php?page=gozlemci-ekle [L,QSA]
+RewriteRule ^gozlemci-ekle/$ index.php?page=gozlemci-ekle [L,QSA]
+
+RewriteRule ^gozlemci-guncelle-([0-9]+)$ index.php?page=gozlemci-guncelle&id=$1 [L,QSA]
+RewriteRule ^gozlemci-guncelle-([0-9]+)/$ index.php?page=gozlemci-guncelle&id=$1 [L,QSA]
+
+RewriteRule ^egitimler$ index.php?page=egitimler [NC,L]
+RewriteRule ^egitimler/$ index.php?page=egitimler [NC,L]
+
+RewriteRule ^egitim-ekle$ index.php?page=egitim-ekle [L,QSA]
+RewriteRule ^egitim-ekle/$ index.php?page=egitim-ekle [L,QSA]
+
+RewriteRule ^egitim-guncelle-([0-9]+)$ index.php?page=egitim-guncelle&id=$1 [L,QSA]
+RewriteRule ^egitim-guncelle-([0-9]+)/$ index.php?page=egitim-guncelle&id=$1 [L,QSA]
+
+RewriteRule ^antrenmanlar$ index.php?page=antrenmanlar [NC,L]
+RewriteRule ^antrenmanlar/$ index.php?page=antrenmanlar [NC,L]
+
+RewriteRule ^antrenman-ekle$ index.php?page=antrenman-ekle [L,QSA]
+RewriteRule ^antrenman-ekle/$ index.php?page=antrenman-ekle [L,QSA]
+
+RewriteRule ^antrenman-guncelle-([0-9]+)$ index.php?page=antrenman-guncelle&id=$1 [L,QSA]
+RewriteRule ^antrenman-guncelle-([0-9]+)/$ index.php?page=antrenman-guncelle&id=$1 [L,QSA]
+
+RewriteRule ^stadyumlar$ index.php?page=stadyumlar [NC,L]
+RewriteRule ^stadyumlar/$ index.php?page=stadyumlar [NC,L]
+
+RewriteRule ^stadyum-ekle$ index.php?page=stadyum-ekle [L,QSA]
+RewriteRule ^stadyum-ekle/$ index.php?page=stadyum-ekle [L,QSA]
+
+RewriteRule ^stadyum-guncelle-([0-9]+)$ index.php?page=stadyum-guncelle&id=$1 [L,QSA]
+RewriteRule ^stadyum-guncelle-([0-9]+)/$ index.php?page=stadyum-guncelle&id=$1 [L,QSA]
+
+RewriteRule ^toplantilar$ index.php?page=toplantilar [NC,L]
+RewriteRule ^toplantilar/$ index.php?page=toplantilar [NC,L]
+
+RewriteRule ^toplanti-ekle$ index.php?page=toplanti-ekle [L,QSA]
+RewriteRule ^toplanti-ekle/$ index.php?page=toplanti-ekle [L,QSA]
+
+RewriteRule ^toplanti-guncelle-([0-9]+)$ index.php?page=toplanti-guncelle&id=$1 [L,QSA]
+RewriteRule ^toplanti-guncelle-([0-9]+)/$ index.php?page=toplanti-guncelle&id=$1 [L,QSA]
+
+RewriteRule ^takimlar$ index.php?page=takimlar [NC,L]
+RewriteRule ^takimlar/$ index.php?page=takimlar [NC,L]
+
+RewriteRule ^takim-ekle$ index.php?page=takim-ekle [L,QSA]
+RewriteRule ^takim-ekle/$ index.php?page=takim-ekle [L,QSA]
+
+RewriteRule ^takim-guncelle-([0-9]+)$ index.php?page=takim-guncelle&id=$1 [L,QSA]
+RewriteRule ^takim-guncelle-([0-9]+)/$ index.php?page=takim-guncelle&id=$1 [L,QSA]
+
+RewriteRule ^fikstur$ index.php?page=fikstur [NC,L]
+RewriteRule ^fikstur/$ index.php?page=fikstur [NC,L]
+
+RewriteRule ^karsilasma-ekle$ index.php?page=karsilasma-ekle [L,QSA]
+RewriteRule ^karsilasma-ekle/$ index.php?page=karsilasma-ekle [L,QSA]
+
+RewriteRule ^karsilasma-guncelle-([0-9]+)$ index.php?page=karsilasma-guncelle&id=$1 [L,QSA]
+RewriteRule ^karsilasma-guncelle-([0-9]+)/$ index.php?page=karsilasma-guncelle&id=$1 [L,QSA]
+
+RewriteRule ^site-bilgileri$ index.php?page=site-bilgileri [NC,L]
+RewriteRule ^site-bilgileri/$ index.php?page=site-bilgileri [NC,L]
+
+RewriteRule ^iletisim-bilgileri$ index.php?page=site-contact [NC,L]
+RewriteRule ^iletisim-bilgileri/$ index.php?page=site-contact [NC,L]
+
+RewriteRule ^kullanicilar$ index.php?page=users [NC,L]
+RewriteRule ^kullanicilar/$ index.php?page=users [NC,L]
+
+RewriteRule ^kullanici-ekle$ index.php?page=add-user [NC,L]
+RewriteRule ^kullanici-ekle/$ index.php?page=add-user [NC,L]
+
+RewriteRule ^tum-aktiviteler$ index.php?page=activity [NC,L]
+RewriteRule ^tum-aktiviteler/$ index.php?page=activity [NC,L]
+
+RewriteRule ^aktivitelerim$ index.php?page=activity [NC,L]
+RewriteRule ^aktivitelerim/$ index.php?page=activity [NC,L]
+
+RewriteRule ^cikis$ sign-out.php [NC,L]
